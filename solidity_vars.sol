@@ -20,7 +20,7 @@ contract solidity_vars {
         gas_left = gasleft();
         sender = msg.sender;
         sig_id = msg.sig;
-        gas_left = block.gaslimit;
+        gas_limit = block.gaslimit;
      }
 
 
